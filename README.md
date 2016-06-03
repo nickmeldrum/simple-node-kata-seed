@@ -8,6 +8,7 @@ This is just a very basic seed project to get you up and running immediately to 
  `git clone --depth=1 -o boilerplate https://github.com/nickmeldrum/simple-node-kata-seed.git [kataname]`
  * If you want to be able to push this project back to github, create the github repo and run the following command:
  `git remote add origin https://github.com/[username]/[kataname].git`
+ * install the dependencies with `npm install`
  * run the tests with a watcher with the cmd `npm run watch`
  * start writing tests in test/test.js that use the app in lib/index.js
 
