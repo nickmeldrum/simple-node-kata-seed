@@ -4,7 +4,10 @@ This is just a very basic seed project to get you up and running immediately to 
 
 ## To get started immediately:
 
- * Fork this project
+ * Clone this project to get a local copy to start working on with the following command (replacing `[kataname]` with the project name you want):
+ `git clone --depth=1 -o boilerplate https://github.com/nickmeldrum/simple-node-kata-seed.git [kataname]`
+ * If you want to be able to push this project back to github, create the github repo and run the following command:
+ `git remote add origin https://github.com/[username]/[kataname].git`
  * run the tests with a watcher with the cmd `npm run watch`
  * start writing tests in test/test.js that use the app in lib/index.js
 
