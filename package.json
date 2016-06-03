@@ -1,0 +1,17 @@
+{
+  "name": "simple-node-kata-seed",
+  "version": "0.0.1",
+  "description": "A simple repository to enable you to start a kata in nodejs straight away",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha -G",
+    "watch": "./node_modules/nodemon/bin/nodemon.js -x 'npm test'"
+  },
+  "author": "Nick Meldrum",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.5.3",
+    "nodemon": "^1.9.2"
+  }
+}
